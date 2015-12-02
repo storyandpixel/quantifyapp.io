@@ -1,1 +1,3 @@
-# Quantify Website
+# quantifyapp.io
+
+Website for Quantify App
