@@ -26,19 +26,11 @@ h3, .h3 {
 .blog {
   color: #303030; }
 
-.blog a {
-  color: black; }
-
 .archive h4 a {
   border-bottom: 1px solid black; }
 
 .archive h4 a:hover {
   border-bottom: 1px solid #8669AD;
-  text-decoration: none; }
-
-.blog p a, .blog li a {
-  border-bottom: 1px solid black; }
-.blog p a:hover, .blog li a:hover {
   text-decoration: none; }
 
 .latest a, .jumbotron a {
