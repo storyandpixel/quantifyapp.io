@@ -1,0 +1,17 @@
+#!/usr/bin/env ruby
+abort('Please pass a title to the script') unless ARGV.length > 0
+title = ARGV.join(' ')
+slug = title.downcase.strip.gsub(' ', '-').gsub(/[^\w-]/, '')
+filename = File.join('_drafts', "#{slug}.md")
+if File.exist?(filename)
+  abort("post creation aborted!") if ask("#{filename} already exists. Do you want to overwrite?",
+    ['y', 'n']) == 'n'
+end
+
+puts "Creating new post: #{filename}"
+open(filename, 'w') do |post|
+  post.puts "---"
+  post.puts "layout: post"
+  post.puts "title: \"#{title.gsub(/-/,' ')}\""
+  post.puts "---"
+end

@@ -1,42 +1,418 @@
 <!DOCTYPE html>
-<html lang="en-us">
+<html>
+
   <head>
-    <meta charset="UTF-8">
-    <title>Quantify - Rate Time</title>
-    <script src="//use.typekit.net/fkj7cdv.js"></script>
-    <script>try{Typekit.load({ async: true });}catch(e){}</script>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <style>
-      * {
-        margin: 0;
-        padding: 0;
-      }
-      body, * {
-        font-family: 'nudista-web', 'Helvetica Neue', sans-serif;
-        font-size: 29px;
-        font-weight: 300;
-        text-align: center;
-      }
-      body {
-        padding-top: 25px;
-      }
-      h1 { font-size: 76px; margin-bottom: 15px; }
-      h2 { font-size: 47px; margin-bottom: 35px; }
-      input { padding: 3px; width: 350px; }
-      button { padding: 5px; }
-    </style>
-  </head>
-  <body>
-    <h1>Quantify - Rate Time</h1>
-    <h2>Coming Soon&hellip;</h2>
-    <form action="//appdocumentary.us7.list-manage.com/subscribe/post?u=654b70dc4fd0125dcb269ac96&amp;id=356f3544c9" class="email-form" method="post" name="mc-embedded-subscribe-form" role="form">
-      <div class="input-group">
-        <input type="text" name="EMAIL" class="form-control input-sm" placeholder="Enter email for updates.">
-        <div style="position: absolute; left: -5000px;"><input type="text" name="b_654b70dc4fd0125dcb269ac96_356f3544c9" tabindex="-1" value=""></div>
-        <span class="input-group-btn">
-          <button type="submit" class="btn-sm btn btn-default">Submit</button>
-        </span>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    
+    <title>Quantify - Rate Time in Real Time</title>
+    
+    <meta property="og:image" content="/images/quantify-in-use.jpg" />
+    <meta property="og:title" content="home | Quantify - Rate Time in Real Time " />
+    <meta property="og:site_name" content="Quantify - Rate Time in Real Time" />
+    <meta property="og:description" content="Realtime rating while shooting. Effortlessly timestamp those moments you know are gold. Easily drop the data into the edit to save hours, with Quantify." />
+
+    <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="shortcut icon" href="/favicon.ico?v=2" />
+    <link rel="manifest" href="/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+
+    <meta name="viewport" content="width=device-width">
+    <meta name="description" content="Realtime rating while shooting. Effortlessly timestamp those moments you know are gold. Easily drop the data into the edit to save hours, with Quantify.">
+    <link rel="canonical" href="http://quantifyapp.io/">
+    <!-- Bootstrap core CSS -->
+    <link href='https://fonts.googleapis.com/css?family=Lato:400,400italic,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="/bower_components/magnific-popup/dist/magnific-popup.css">
+    <link rel="stylesheet" type="text/css" href="/bower_components/owlcarousel/owl-carousel/owl.carousel.css">
+    <link rel="stylesheet" type="text/css" href="/bower_components/owlcarousel/owl-carousel/owl.theme.css">
+    <link type="text/css" rel="stylesheet" href="/assets/solarized-light.css">
+
+    <!-- Custom CSS -->
+    <link type="text/css" rel="stylesheet" href="/assets/app.css">
+</head>
+
+
+    
+      <body class="animating home">
+    
+
+    <!-- <img class="mockup" src="/images/mockup.png"> -->
+
+
+    <div class="content-wrapper"><!-- <img src="/images/mockup.png" class="mockup"> -->
+
+<div class="container content-constrained-container header-nav">
+  <nav class="navbar navbar-default header">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="/"><img src="/images/header-icon-small.png" height="26" alt="Quantify Icon"></a>
       </div>
-    </form>
-  </body>
+
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav">
+  <li>
+    <a class="page-link" href="/news">News</a>
+  </li>
+  <li>
+    <a class="page-link" href="/tutorials">Tutorials</a>
+  </li>
+  <li>
+    <a class="page-link" href="/support">Support</a>
+  </li>
+  <li>
+    <a class="page-link" href="/about">About</a>
+  </li>
+  <!-- <li>
+    
+      <form action="//appdocumentary.us7.list-manage.com/subscribe/post?u=654b70dc4fd0125dcb269ac96&amp;id=356f3544c9" class="email-form" method="post" name="mc-embedded-subscribe-form" role="form">
+  <div class="input-group">
+    <input type="text" name="EMAIL" class="form-control input-sm" placeholder="Enter email for updates.">
+    <span class="input-group-btn">
+      <button type="submit" class="btn-sm btn btn-default">Submit</button>
+    </span>
+  </div>
+</form>
+
+    
+  </li> -->
+</ul>
+
+        <div class="nav-mailing-list-signup">
+          <form action="//appdocumentary.us7.list-manage.com/subscribe/post?u=654b70dc4fd0125dcb269ac96&amp;id=356f3544c9" class="email-form" method="post" name="mc-embedded-subscribe-form" role="form">
+  <div class="input-group">
+    <input type="text" name="EMAIL" class="form-control input-sm" placeholder="Enter email for updates.">
+    <span class="input-group-btn">
+      <button type="submit" class="btn-sm btn btn-default">Submit</button>
+    </span>
+  </div>
+</form>
+
+        </div>
+      </div><!-- /.navbar-collapse -->
+  </nav>
+</div>
+
+
+<div id="latest" class="latest">
+  <!-- <div class="col-sm-12" style="padding: 0; margin: 0"> -->
+          <!-- <img src="/images/quantify-squares.svg" height="35" width="140" style="margin-right: 10px" class="pull-left"> -->
+  <div class="container content-constrained-container">
+    <div class="row">
+      <div class="col-sm-12">
+        <p style="margin-top: 6px">
+          <strong>Latest post</strong> <a href="/2016/03/21/welcome/">Welcome!</a>
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="jumbotron home">
+  <div class="title-container container text-center">
+    <h1 class="h1" style="margin-bottom: 0"><img src="/images/header-icon.png" class="header-icon"> Quantify</h1>
+    <h3 style="margin-top: 7px">Rate time in real time.</h3>
+    <p style="font-style: italic; font-size: 16px;">Created by two filmmakers while making a <a href="http://appdocumentary.com" style="color: white; border-bottom: 1px solid #BBB">film</a> about apps.</p>
+    <p class="text-center video-play-button-wrapper" style="visibility: hidden">
+      <a href="#" class="video-play-button-container" data-video-src="https://vimeo.com/150294474"><img src="/images/home-video-play-button.svg" height="83"></a>
+    </p>
+    <p class="lead blurb" style="">
+      Realtime rating while shooting. Effortlessly timestamp those moments you know are gold. Easily drop the data into the edit to save hours, with Quantify.
+      <!-- You're a video professional who does top notch work. You agonize over your tools to make yourself as efficient as possible. Time is money after all. You do a shoot and, several times throughout, have the thought, "Oh, yeah. That was a beautiful moment. Pure gold." Then you promptly forget when it happened. You later spend hours scrubbing a timeline to find it again. You want to get that time back. Meet Quantify. -->
+    </p>
+    <p class="text-center">
+      <!-- <a href="#"><img src="/images/download-on-the-app-store-soon.svg" height="40"></a> -->
+      <a href="mailto:support@quantifyapp.io?subject=Quantify%20Beta"><img src="/images/request-a-beta-invite.svg" height="40"></a>
+    </p>
+  </div>
+  <div class="video-container">
+    <div class="filter"></div>
+    <video autoplay loop class="fillWidth">
+      <source src="/videos/quantify-ux/quantify-ux.mp4" type="video/mp4" />Your browser does not support the video tag. I suggest you upgrade your browser.
+      <!-- <source src="/videos/periscope-stand-in/splash_bg.mp4" type="video/mp4" />Your browser does not support the video tag. I suggest you upgrade your browser. -->
+      <!-- <source src="/videos/periscope-stand-in/splash_bg.webm" type="video/webm" />Your browser does not support the video tag. I suggest you upgrade your browser. -->
+    </video>
+    <div class="poster hidden">
+      <img src="/videos/quantify-ux/quantify-ux.jpg" alt="">
+    </div>
+  </div>
+</div>
+
+<div class="hr">
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+</div>
+
+  <div class="grey-bg quote">
+    <div class="col-md-9 col-md-offset-1 visible-xs-block">
+      <blockquote>
+          <div class="row">
+            <div class="col-sm-3">
+              <img class="img-circle" src="/images/adam.jpg" alt="Adam Lisagor">
+            </div>
+            <div class="col-sm-9">
+              <p>
+                &ldquo;This is brilliant. Such a good idea for an app. A meta app even.&rdquo;
+              </p>
+              <footer><a href="https://twitter.com/lonelysandwich/status/687399156013514752">Adam Lisagor</a>, Founder of Sandwich Video</footer>
+            </div>
+          </div>
+      </blockquote>
+    </div>
+    <div class="hidden-xs">
+      <blockquote>
+        <p>
+          <img class="img-circle pull-left" style="margin-bottom: 25px" src="/images/adam.jpg" alt="Adam Lisagor">
+          &ldquo;This is brilliant. Such a good idea for an app. A meta app even.&rdquo;
+          <footer><a href="https://twitter.com/lonelysandwich/status/687399156013514752">Adam Lisagor</a>, Founder of Sandwich Video</footer>
+        </p>
+      </blockquote>
+    </div>
+  </div>
+
+<div class="container">
+  <div class="row">
+  </div>
+  <div class="row">
+    <h1 class="text-center h1">Simple. Fun. Fast.</h1>
+  </div>
+  <div class="row screenshots hidden-xs">
+    <div class="col-sm-4">
+      <img src="/images/screenshot-1.png" class="img-responsive">
+    </div>
+    <div class="col-sm-4">
+      <img src="/images/screenshot-2.png" class="img-responsive">
+    </div>
+    <div class="col-sm-4">
+      <img src="/images/screenshot-3.png" class="img-responsive">
+    </div>
+  </div>
+  <div id="simple-fun-fast-mobile-carousel" class="owl-carousel screenshots visible-xs-block text-center">
+    <div>
+      <img src="/images/screenshot-1.png" class="img-responsive">
+    </div>
+    <div>
+      <img src="/images/screenshot-2.png" class="img-responsive">
+    </div>
+    <div>
+      <img src="/images/screenshot-3.png" class="img-responsive">
+    </div>
+  </div>
+  <div class="row">
+    <h1 class="text-center h1">Deeply integrated with Premiere Pro.</h1>
+  </div>
+  <div class="row">
+    <div class="col-xs-12">
+      <div class="image-cycler hidden-xs">
+        <img class="img-responsive active" src="/images/without-quantify.jpg" alt="My image" />
+        <img class="img-responsive" src="/images/with-quantify.jpg" alt="My image" />
+      </div>
+      <div class="image-cycler visible-xs-block">
+        <img class="img-responsive active" src="/images/without-quantify-tall.jpg" alt="My image" />
+        <img class="img-responsive" src="/images/with-quantify-tall.jpg" alt="My image" />
+      </div>
+      <p>&nbsp;</p>
+      <p>&nbsp;</p>
+      <p>&nbsp;</p>
+    </div>
+  </div>
+</div>
+
+
+
+
+<div class="jumbotron jumbotron-carousel" style="margin-bottom: 18px; background: transparent">
+  <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+    <!-- <div class="quotes owl-carousel"> -->
+    <div class="quotes">
+      <div>
+        <img src="/images/wes-instagram-wide-cropped.jpg" class="img-responsive" alt="Video" style="width: 100%">
+        <blockquote style="padding-top: 0">
+          <p>
+            &ldquo;It's a pretty kick ass app.&rdquo;
+          </p>
+          <footer><a href="http://www.wesfilms.com/">Wes Reel</a>, Independent Cinematographer - Reddit, The Verge, and more.</footer>
+        </blockquote>
+      </div>
+      <!-- <div>
+        <img src="/images/podcasting.jpg" alt="Podcasting" style="width: 100%">
+        <blockquote style="padding-top: 0">
+          <p>
+            &ldquo;You have the least amount of time to tell the most important stories&hellip;Quantify is live field editing realized.&rdquo;
+          </p>
+          <footer>Respected Person</footer>
+        </blockquote>
+      </div> -->
+    </div>
+  </div>
+</div>
+</div>
+
+    <footer class="primary-footer">
+  <div class="hr hr-three-squares hidden-xs">
+    <div></div>
+    <div></div>
+    <div></div>
+    <div><ul class="nav navbar-nav">
+  <li>
+    <a class="page-link" href="/news">News</a>
+  </li>
+  <li>
+    <a class="page-link" href="/tutorials">Tutorials</a>
+  </li>
+  <li>
+    <a class="page-link" href="/support">Support</a>
+  </li>
+  <li>
+    <a class="page-link" href="/about">About</a>
+  </li>
+  <!-- <li>
+    
+  </li> -->
+</ul>
+</div>
+  </div>
+  <div class="visible-xs-block footer-nav"><ul class="nav navbar-nav">
+  <li>
+    <a class="page-link" href="/news">News</a>
+  </li>
+  <li>
+    <a class="page-link" href="/tutorials">Tutorials</a>
+  </li>
+  <li>
+    <a class="page-link" href="/support">Support</a>
+  </li>
+  <li>
+    <a class="page-link" href="/about">About</a>
+  </li>
+  <!-- <li>
+    
+  </li> -->
+</ul>
+</div>
+</footer>
+<!-- <div id="footer" class="container">
+  <footer>
+    <div class="row">
+      <div class="col-md-12">
+        <h1>Keep up to date</h1>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-8">
+        <p>We’re excited that you’d like to go on this journey with us! We’re working hard to make this film out in the open. Here are some options to follow along.</p>
+      </div>
+    </div>
+    <div class="row follow-options">
+      <div class="col-sm-12 col-md-4">
+        <h2>Join the mailing list</h2>
+        <p>
+          Email frequency is less than once a week. And as a token of our thanks, we’ll send you a few coupons over the next several months.
+        </p>
+        <form action="//appdocumentary.us7.list-manage.com/subscribe/post?u=654b70dc4fd0125dcb269ac96&amp;id=356f3544c9" class="email-form" method="post" name="mc-embedded-subscribe-form" role="form">
+  <div class="input-group">
+    <input type="text" name="EMAIL" class="form-control input-sm" placeholder="Enter email for updates.">
+    <span class="input-group-btn">
+      <button type="submit" class="btn-sm btn btn-default">Submit</button>
+    </span>
+  </div>
+</form>
+
+        <p class="muted">
+          No spam, ever. Emails are never shared.
+        </p>
+      </div>
+      <div class="col-sm-6 col-md-3 follow-us">
+        <h2>Follow us</h2>
+        <p>
+          <a href="https://twitter.com/appdocu" class="btn btn-default">
+            <i class="fa fa-lg fa-twitter"></i> Follow @appdocu
+          </a>
+        </p>
+        <p>
+        <a href="https://instagram.com/storyandpixel/" class="btn btn-default">
+          <i class="fa fa-lg fa-instagram"></i> Follow @storyandpixel
+        </a>
+        </p>
+        <p>
+        <a href="https://www.facebook.com/appthehumanstory" class="btn btn-default">
+          <i class="fa fa-lg fa-facebook-square"></i> Like us on Facebook
+        </a>
+        </p>
+      </div>
+      <div class="col-sm-6 col-md-5">
+        <h2>Read our <a href="https://twitter.com/appdocu">latest tweets</a></h2>
+        <div id="latest-tweets"><a class="twitter-timeline" data-dnt="true" data-tweet-limit="2" href="https://twitter.com/appdocu" data-chrome="noheader nofooter noborder noscrollbar transparent" data-link-color="#FFFFFF" width="100%" height="200" data-widget-id="593877329694183424">Tweets by @appdocu</a> <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script></div>
+      </div>
+    </div>
+    <div class="row post-amble">
+      <div class="col-sm-6">
+        <h3>app: the human story</h3>
+        <h5>A documentary coming soon.</h5>
+      </div>
+      <div class="col-sm-6">
+        <div class="featured-sponsor">
+        </div>
+      </div>
+    </div>
+  </footer>
+</div> -->
+
+
+    <form name="back-button-detector">
+  <input type="text" id="page-is-dirty" name="page-is-dirty" style="display: none;" value="0" />
+</form>
+
+
+    <script>
+  [].slice.call(document.querySelectorAll('svg.animated'))
+    .forEach(function (el) {
+      el.style.visibility = 'hidden';
+    });
+</script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="http://cdnjs.cloudflare.com/ajax/libs/gsap/1.15.1/TweenLite.min.js"></script>
+<script src="http://cdnjs.cloudflare.com/ajax/libs/gsap/1.15.1/TimelineLite.min.js"></script>
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="/assets/jquery.flexverticalcenter.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/underscore.js/1.6.0/underscore-min.js"></script>
+<script src="/bower_components/vivus/dist/vivus.js"></script>
+<script src="http://cdnjs.cloudflare.com/ajax/libs/gsap/1.15.1/plugins/CSSPlugin.min.js"></script>
+<script src="/bower_components/magnific-popup/dist/jquery.magnific-popup.min.js"></script>
+<script src="/bower_components/owlcarousel/owl-carousel/owl.carousel.min.js"></script>
+<script src="/js/jquery.detectmobilebrowser.js"></script>
+<script type="text/javascript" src="/assets/app.js"></script>
+<!-- <script type="text/javascript" src="/assets/featured-sponsor.js"></script> -->
+<!-- <script type="text/javascript" src="/assets/products.js"></script> -->
+<script>
+  if (!(/quantifyapp.io/).test(location.host)) {
+    document.write('<script src="http://'
+        + (location.host || 'localhost').split(':')[0]
+        + ':35729/livereload.js?snipver=1"></'
+        + 'script>');
+  }
+</script>
+
+    </body>
 </html>
