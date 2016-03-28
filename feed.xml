@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Quantify - Rate Time in Real Time</title>
+    <description>Realtime rating while shooting. Effortlessly timestamp those moments you know are gold. Easily drop the data into the edit to save hours, with Quantify.</description>
+    <link>http://quantifyapp.io/</link>
+    <atom:link href="http://quantifyapp.io/feed.xml" rel="self" type="application/rss+xml" />
+    <pubDate>Mon, 28 Mar 2016 15:01:41 -0600</pubDate>
+    <lastBuildDate>Mon, 28 Mar 2016 15:01:41 -0600</lastBuildDate>
+    <generator>Jekyll v3.0.1</generator>
+    
+      <item>
+        <title>Welcome!</title>
+        <description>&lt;p&gt;Hello and welcome to Quantify! We’re excited to be sharing a tool with you that has saved us so much time.&lt;/p&gt;
+
+&lt;p&gt;Here is where we will be posting notable milestones. Subscribe to our &lt;a href=&quot;/feed.xml&quot;&gt;RSS feed&lt;/a&gt; to stay up to date. If you would like even more frequent Quantify news, follow us on Twitter at &lt;a href=&quot;https://twitter.com/quantifytime&quot;&gt;@quantifytime&lt;/a&gt; and on Instagram at &lt;a href=&quot;https://www.instagram.com/quantify_time/&quot;&gt;@quantify_time&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Best,&lt;br /&gt;
+Jake, Jed, and Ryan&lt;/p&gt;
+</description>
+        <pubDate>Mon, 21 Mar 2016 00:00:00 -0600</pubDate>
+        <link>http://quantifyapp.io/2016/03/21/welcome/</link>
+        <guid isPermaLink="true">http://quantifyapp.io/2016/03/21/welcome/</guid>
+        
+        
+      </item>
+    
+  </channel>
+</rss>
