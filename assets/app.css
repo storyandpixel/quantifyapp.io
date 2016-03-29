@@ -7884,7 +7884,7 @@ button.close {
 
 .video-container .poster img {
   width: 100%;
-  bottom: 0;
+  top: 0;
   position: absolute; }
 
 .video-container .filter {
@@ -7896,7 +7896,8 @@ button.close {
 .video-container video {
   position: absolute;
   z-index: 0;
-  bottom: 0; }
+  top: 50%;
+  transform: translatey(-50%); }
 
 .video-container video.fillWidth {
   width: 100%; }

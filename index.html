@@ -133,6 +133,7 @@
     <h3 style="margin-top: 7px">Rate time in real time.</h3>
     <p style="font-style: italic; font-size: 16px;">Created by two filmmakers while making a <a href="http://appdocumentary.com" style="color: white; border-bottom: 1px solid #BBB">film</a> about apps.</p>
     <p class="text-center video-play-button-wrapper" style="visibility: hidden">
+    <!-- <p class="text-center video-play-button-wrapper"> -->
       <a href="#" class="video-play-button-container" data-video-src="https://vimeo.com/150294474"><img src="/images/home-video-play-button.svg" height="83"></a>
     </p>
     <p class="lead blurb" style="">
@@ -146,11 +147,10 @@
   </div>
   <div class="video-container">
     <div class="filter"></div>
-    <video autoplay loop class="fillWidth">
-      <source src="/videos/quantify-ux/quantify-ux.mp4" type="video/mp4" />Your browser does not support the video tag. I suggest you upgrade your browser.
-      <!-- <source src="/videos/periscope-stand-in/splash_bg.mp4" type="video/mp4" />Your browser does not support the video tag. I suggest you upgrade your browser. -->
-      <!-- <source src="/videos/periscope-stand-in/splash_bg.webm" type="video/webm" />Your browser does not support the video tag. I suggest you upgrade your browser. -->
-    </video>
+    <div id="video-placeholder"></div>
+    <!-- <source src="/videos/quantify-ux/quantify-ux.mp4" type="video/mp4" />Your browser does not support the video tag. I suggest you upgrade your browser. -->
+    <!-- <source src="/videos/periscope-stand-in/splash_bg.mp4" type="video/mp4" />Your browser does not support the video tag. I suggest you upgrade your browser. -->
+    <!-- <source src="/videos/periscope-stand-in/splash_bg.webm" type="video/webm" />Your browser does not support the video tag. I suggest you upgrade your browser. -->
     <div class="poster hidden">
       <img src="/videos/quantify-ux/quantify-ux.jpg" alt="">
     </div>
@@ -181,12 +181,16 @@
       </blockquote>
     </div>
     <div class="hidden-xs">
-      <blockquote style="padding-bottom: 1.4em">
-        <p>
-          <img class="img-circle pull-left" style="margin-top: -0.4em" src="/images/adam.jpg" alt="Adam Lisagor">
-          &ldquo;This is brilliant. Such a good idea for an app. A meta app even.&rdquo;
-          <footer><a href="https://twitter.com/lonelysandwich/status/687399156013514752">Adam Lisagor</a>, Founder of Sandwich Video</footer>
-        </p>
+      <blockquote style="padding-bottom: 1.4em; display: table">
+        <div style="display: table-cell; vertical-align: middle">
+          <img class="img-circle" src="/images/adam.jpg" alt="Adam Lisagor">
+        </div>
+        <div style="display: table-cell; vertical-align: middle">
+          <p>
+            &ldquo;This is brilliant. Such a good idea for an app. A meta app even.&rdquo;
+            <footer><a href="https://twitter.com/lonelysandwich/status/687399156013514752">Adam Lisagor</a>, Founder of Sandwich Video</footer>
+          </p>
+        </div>
       </blockquote>
     </div>
   </div>

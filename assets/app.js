@@ -226,20 +226,7 @@
     });
   }
 
-  $(function () {
-    initImageCyclers(3000);
-    $('.image-cycler img').load(updateImageCyclerHeights);
-    $(window).resize(updateImageCyclerHeights);
-    linkifyElements('.panel-title');
-    // initializeVideoPlaceholders();
-    // initializeAnimatedSvgElements();
-    initializeMagnificPopup();
-    initializeOwlCarousels();
-    // verticallyCenterElements();
-    // animateSponsorBadge();
-    // cleanupSponsorLists();
-    // overRideTweetTimelineWidth();
-    // centerEmbeddedTweets();
+  function initBackgroundVideo () {
     var initialParentHeight = elementHeightInPixels('.jumbotron.home')
     scaleVideoContainer(initialParentHeight);
 
@@ -260,5 +247,33 @@
         scaleBannerVideoSize('.video-container video', parentHeight);
       }
     });
+  }
+
+  function embedBackgroundVideo () {
+    // var videoSrc = $(window).width() < 1367 ? '/videos/onboarding/q-onboard.mp4' : '/videos/onboarding/q-onboard-wide.mp4';
+    var videoSrc = $(window).width() < 1367 ? '/videos/quantify-ux/quantify-ux.mp4' : '/videos/quantify-ux/quantify-ux.mp4';
+
+    var videoTag = '<video autoplay loop class="fillWidth">' +
+      '<source src="'+videoSrc+'" type="video/mp4" id="looping-background-video" />Your browser does not support the video tag. I suggest you upgrade your browser.' +
+    '</video>';
+    $('#video-placeholder').replaceWith(videoTag);
+  }
+
+  $(function () {
+    initImageCyclers(3000);
+    $('.image-cycler img').load(updateImageCyclerHeights);
+    $(window).resize(updateImageCyclerHeights);
+    linkifyElements('.panel-title');
+    // initializeVideoPlaceholders();
+    // initializeAnimatedSvgElements();
+    initializeMagnificPopup();
+    initializeOwlCarousels();
+    embedBackgroundVideo();
+    initBackgroundVideo();
+    // verticallyCenterElements();
+    // animateSponsorBadge();
+    // cleanupSponsorLists();
+    // overRideTweetTimelineWidth();
+    // centerEmbeddedTweets();
   });
 }());
