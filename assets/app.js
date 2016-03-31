@@ -236,6 +236,7 @@
 
     if (jQuery.browser.mobile) {
       $('.video-container .poster').removeClass('hidden');
+      $('.video-play-button-wrapper').css('visibility', 'visible');
     }
 
     $(window).on('resize', function() {
@@ -250,11 +251,10 @@
   }
 
   function embedBackgroundVideo () {
-    var videoSrc = $(window).width() < 1367 ? '/videos/onboarding/q-onboard.mp4' : '/videos/onboarding/q-onboard.mp4';
-    // var videoSrc = $(window).width() < 1367 ? '/videos/quantify-ux/quantify-ux.mp4' : '/videos/quantify-ux/quantify-ux.mp4';
+    var videoVariant = $(window).width() < 1367 ? '' : '-wide';
 
-    var videoTag = '<video autoplay loop class="fillWidth">' +
-      '<source src="'+videoSrc+'" type="video/mp4" id="looping-background-video" />Your browser does not support the video tag. I suggest you upgrade your browser.' +
+    var videoTag = '<video autoplay loop class="fillWidth" poster="/videos/onboarding/q-onboard'+videoVariant+'.jpg">' +
+      '<source src="/videos/onboarding/q-onboard'+videoVariant+'.mp4" type="video/mp4" id="looping-background-video"/>Your browser does not support the video tag. I suggest you upgrade your browser.' +
     '</video>';
     $('#video-placeholder').replaceWith(videoTag);
   }

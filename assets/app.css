@@ -8134,6 +8134,9 @@ body {
   min-height: 100vh;
   flex-direction: column; }
 
+.mfp-iframe-scaler {
+  padding-top: 178% !important; }
+
 .content-wrapper {
   flex: 1; }
 
