@@ -5,9 +5,42 @@
     <description>Realtime rating while shooting. Effortlessly timestamp those moments you know are gold. Easily drop the data into the edit to save hours, with Quantify.</description>
     <link>http://quantifyapp.io/</link>
     <atom:link href="http://quantifyapp.io/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Wed, 13 Apr 2016 06:50:30 -0600</pubDate>
-    <lastBuildDate>Wed, 13 Apr 2016 06:50:30 -0600</lastBuildDate>
+    <pubDate>Wed, 13 Apr 2016 12:34:55 -0600</pubDate>
+    <lastBuildDate>Wed, 13 Apr 2016 12:34:55 -0600</lastBuildDate>
     <generator>Jekyll v3.0.1</generator>
+    
+      <item>
+        <title>Choose Your Own Price?</title>
+        <description>&lt;p&gt;In the current version of Quantify, the screen explaining how subscriptions work is not as clear as we’d like it to be. We have submitted an update to the App Store to remedy this, but it’s still in review. In the meantime, here’s a clearer breakdown of how subscriptions work:&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;All subscriptions include the same stuff&lt;/strong&gt;: premium support, unlimited events, and powerful data export options. We may add extra features to the higher tiers in the future, but for now, the multiple price points are just to make sure that Quantify Pro is affordable for anyone who needs it. Pick whichever one you like, and you’ll get everything!&lt;/p&gt;
+
+&lt;p&gt;Here’s what the new subscription screen will look like once the update is approved by Apple &lt;em&gt;(the new $14.99 tier is coming in the next release)&lt;/em&gt;:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/posts/subscriptions-screen.png&quot; alt=&quot;Subscriptions Screen&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;why-subscriptions&quot;&gt;Why subscriptions?&lt;/h2&gt;
+
+&lt;p&gt;On another note, we’ve been getting some queries on why we went with a subscription model for Quantify. Here’s a comment we posted on &lt;a href=&quot;http://nofilmschool.com/2016/04/new-quantify-app-lets-you-rate-footage-real-time&quot;&gt;No Film School&lt;/a&gt; this morning to clarify:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Here is a little behind the scenes of why we have a free+subscription based model.&lt;/p&gt;
+
+  &lt;p&gt;We’ve spent the last two years talking to countless indie app developers while making &lt;a href=&quot;http://appdocumentary.com&quot;&gt;our film&lt;/a&gt;. Many of them are sadly giving up on creating tools like this because traditional App Store pricing is not sustainable for them.&lt;/p&gt;
+
+  &lt;p&gt;Professional software used to cost hundreds of dollars and developers could count on recurring revenue from existing customers through paid upgrades. The App Store has created an economy where a developer is expected to sell their software for a buck or two without the possibility of paid upgrades, which are not supported by the App Store. This drives developers to write trivial apps, make as much money as possible in a short period of time, then abandon them and move on. We have a much bigger vision for Quantify than that.&lt;/p&gt;
+
+  &lt;p&gt;As filmmakers ourselves, we wrestle with a lot of inefficiency in the production process. Quantify will be our vehicle to make that process a little better for everyone. We want Quantify to be around for filmmakers for years to come, we want it to be well supported, and we want it to keep getting better. So we went with a pricing model that will create recurring revenue.&lt;/p&gt;
+
+  &lt;p&gt;A fun way to think about it is if Quantify saves you one hour, it will have paid for itself at least 3 times over, depending on your rate or production/post costs. If that doesn’t make your producer smile, we don’t know what will.&lt;/p&gt;
+&lt;/blockquote&gt;
+</description>
+        <pubDate>Wed, 13 Apr 2016 00:00:00 -0600</pubDate>
+        <link>http://quantifyapp.io/2016/04/13/choose-your-own-price/</link>
+        <guid isPermaLink="true">http://quantifyapp.io/2016/04/13/choose-your-own-price/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Welcome to Quantify News!</title>

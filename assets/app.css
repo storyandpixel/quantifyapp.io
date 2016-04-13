@@ -71,6 +71,15 @@ body blockquote {
     margin-bottom: 0;
     margin-top: 15px; }
 
+.blog blockquote {
+  padding-top: 0; }
+  .blog blockquote p {
+    color: #303030;
+    font-size: 90%;
+    line-height: 150%; }
+  .blog blockquote p:first-child {
+    margin-top: 0; }
+
 @media (max-width: 768px) {
   body blockquote {
     text-align: center; }
