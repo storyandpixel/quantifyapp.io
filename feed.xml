@@ -5,9 +5,20 @@
     <description>Realtime rating while shooting. Effortlessly timestamp those moments you know are gold. Easily drop the data into the edit to save hours, with Quantify.</description>
     <link>http://quantifyapp.io/</link>
     <atom:link href="http://quantifyapp.io/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Wed, 13 Apr 2016 16:29:14 -0600</pubDate>
-    <lastBuildDate>Wed, 13 Apr 2016 16:29:14 -0600</lastBuildDate>
+    <pubDate>Fri, 06 May 2016 08:30:22 -0600</pubDate>
+    <lastBuildDate>Fri, 06 May 2016 08:30:22 -0600</lastBuildDate>
     <generator>Jekyll v3.0.1</generator>
+    
+      <item>
+        <title>Bug Affecting Windows Users</title>
+        <description>&lt;p&gt;We discovered that there are some inconsistencies in how the Windows and OS X versions of Premiere handle FCP XML files. We are hearing about some weird XML issues from Windows users.  We’re working on a fix, but in the meantime if you have Quantify events that you need to use in Premiere on Windows, please export the FCP XML files for them, send them to us at &lt;a href=&quot;mailto:support@quantifyapp.io&quot;&gt;support@quantifyapp.io&lt;/a&gt;, and we can quickly convert them for you and send them back. Sorry for the inconvenience.&lt;/p&gt;
+</description>
+        <pubDate>Fri, 06 May 2016 00:00:00 -0600</pubDate>
+        <link>http://quantifyapp.io/2016/05/06/bug-affecting-windows-users/</link>
+        <guid isPermaLink="true">http://quantifyapp.io/2016/05/06/bug-affecting-windows-users/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Choose Your Own Price?</title>
